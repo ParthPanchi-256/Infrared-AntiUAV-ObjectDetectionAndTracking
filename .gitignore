@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment (rebuild with: pip install -r requirements.txt)
+yolo-env/
+.venv/
+venv/
+
+# Raw dataset (~3 GB of BMPs)
+data/
+
+# Generated dataset — rebuild with: python scripts/prepare_data.py
+processed/
+
+# Training runs, checkpoints and logs
+runs/
+*.log
+*.pt
+*.pth
+*.onnx
+
+# Large media
+*.mp4
+*.mov
+*.avi
+anti-uav/videos/
+
+# Reference papers (copyrighted; cited in README and docs/report.md)
+docs/*.pdf
+
+# Ultralytics label caches
+*.cache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+{
+  "weights": "runs\\yolo\\yolo11n_ir\\weights\\best.pt",
+  "split": "val",
+  "tracker": "C:\\Users\\parth\\Documents\\My Projects\\MiniProject\\configs\\botsort_ir.yaml",
+  "conf": 0.2,
+  "iou": 0.3,
+  "imgsz": 512,
+  "pad": 4.0,
+  "tau": 5.0,
+  "out": "results\\yolo_botsort\\pad_sweep\\pad4"
+}
